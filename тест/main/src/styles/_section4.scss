@@ -1,0 +1,76 @@
+.section4{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 155px;
+    gap: 10px;
+    grid-template-areas: "block4-1 block4-2 block4-2"
+    "block4-3 block4-4 block4-5";
+    .block4-1{
+        grid-area: block4-1;
+        background-color: $orange;
+        &__heading{
+            padding-left: 15px;
+            padding-top: 115px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: $black;
+        }
+    }
+    .block4-2{
+        grid-area: block4-2;
+        background-color: $orange;
+        &__heading{
+            padding-left: 15px;
+            padding-top: 115px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: $black;
+        }
+    }
+    .block4-3{
+        grid-area: block4-3;
+        background-color: $red;
+        &__heading{
+            padding-left: 15px;
+            padding-top: 115px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: $black;
+        }
+    }
+    .block4-4{
+        grid-area: block4-4;
+        background-color: $orange;
+        &__heading{
+            padding-left: 15px;
+            padding-top: 115px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: $black;
+        }
+    }
+    .block4-5{
+        grid-area: block4-5;
+        background-color: $purple;
+        &__heading{
+            padding-left: 15px;
+            padding-top: 115px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: $black;
+        }
+    }
+}

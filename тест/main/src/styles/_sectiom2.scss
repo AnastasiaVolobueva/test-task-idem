@@ -1,0 +1,78 @@
+.section2{
+    padding-left: 13px;
+    padding-right: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 155px;
+    gap: 10px;
+    grid-template-areas: "block1 block2 block3"
+    "block4 block4 block5";
+
+
+        .section2__block1{
+            grid-area: block1;
+            background-color: $lightGrey;
+            .block2-1__heading{
+                padding-top: 115px;
+                padding-left: 15px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                color: $black;
+            }
+        }
+        .section2__block2{
+            grid-area: block2;
+            background-color: $lightGrey;
+            .block2-2__heading{
+                padding-top: 115px;
+                padding-left: 15px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                color: $black;
+            }
+        }
+        .section2__block3{
+            grid-area: block3;
+            background-color: $blue;
+            .block2-3__heading{
+                padding-top: 115px;
+                padding-left: 15px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                color: $black;
+            }
+        }
+        .section2__block4{
+            grid-area: block4;
+            background-color: $lightGrey;
+            .block2-4__heading{
+                padding-top: 115px;
+                padding-left: 15px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                color: $black;
+            }
+        }
+        .section2__block5{
+            grid-area: block5;
+            background-color: $yellow;
+            .block2-5__heading{
+                padding-top: 115px;
+                padding-left: 15px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                color: $black;
+            }
+        }
+
+}

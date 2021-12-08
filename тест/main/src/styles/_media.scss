@@ -1,0 +1,69 @@
+@media(max-width:717px){
+    body{
+        max-width: 320px;
+        margin: 0 auto;
+      }
+    
+      .container{
+          max-width: 320px;
+      }
+      .main{
+        grid-template-areas: "section2"
+        "section1"
+        "section4";
+        .section1{
+            padding-left: 0;
+            padding-right: 0;
+            grid-template-columns: 2fr 1fr;
+            grid-auto-rows: 102px;
+            .big-block{
+                overflow-y: scroll;
+                ::-webkit-scrollbar-thumb {
+                    background: $lightGrey; /* цвет фона у дорожки */
+                    border-radius: 0px; /* скругление углов */
+                    border: 3px solid transparent; /* толщина, стиль и цвет рамки */
+                }
+                .big-block__heading{
+                    margin: 0;
+                    padding-top: 19px;
+                    padding-left: 9px;
+                    padding-right: 19px;
+                }
+            }
+            .small-block1{
+                .small-block__heading{
+                    padding-top: 40px;
+                }
+            }
+            .small-block__heading{
+                padding-top: 65px;
+                padding-left: 9px;
+            }
+        }
+        .section2{
+            padding-top: 10px;
+            padding-left: 0;
+            padding-right: 0;
+            grid-template-columns: 155px 155px;
+            grid-template-areas: "block1 block2"
+                "block4 block4"
+                "block3 block5";
+                .block2-2__heading{
+                    width: 93%;
+                    padding-top: 95px;
+                }
+        }
+        .section3{
+          display: none;
+        }
+        .section4{
+            padding-left: 0;
+            padding-right: 0;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:"block4-2 block4-2" 
+                "block4-4 block4-5"
+                "block4-1 block4-3";
+
+        }
+    }
+}

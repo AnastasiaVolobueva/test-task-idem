@@ -1,0 +1,51 @@
+.section1{
+    padding: 10px 13px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: 241px;
+    gap: 10px;
+    grid-template-areas: "big-block small-block1"
+    "big-block small-block2";
+    .big-block{
+        grid-area: big-block;
+        background-color: $grey;
+        &__heading{
+            padding-top: 30px;
+            padding-left: 25px;
+            padding-right: 46px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18.1121px;
+            line-height: 26px;
+            text-align: center;
+            color: $white;
+        }
+
+    }
+    .small-block1{
+        grid-area: small-block1;
+        background-color: $grey;
+        .small-block__heading{
+            padding-left: 15px;
+            padding-top: 200px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: $white;
+        }
+    }
+    .small-block2{
+        grid-area: small-block2;
+        background-color: $grey;
+        .small-block__heading{
+            padding-left: 15px;
+            padding-top: 200px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: $white;
+        }
+    }
+}

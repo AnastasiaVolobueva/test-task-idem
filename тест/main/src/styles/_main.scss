@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body{
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .container{
+      max-width: 768px;
+  }
+
+  .main{
+      display: grid;
+      grid-template-areas: "section1"
+      "section2"
+      "section3"
+      "section4";
+      .section1{
+        grid-area: section1;
+      }
+      .section2{
+        grid-area: section2;
+      }
+      .section3{
+        grid-area: section3;
+      }
+      .section4{
+        grid-area: section4;
+      }
+  }
+ 

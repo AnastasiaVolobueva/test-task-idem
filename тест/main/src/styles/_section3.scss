@@ -1,0 +1,158 @@
+.section3{
+    padding: 10px 13px;
+   
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: 241px;
+    gap: 10px;
+    grid-template-areas: "blockModern blockInfo"
+    "blockPeople blockInfo";
+    .block3-1{
+        grid-area: blockModern;
+        background-color: $green;
+        .block3-1__heading{
+            width: 90%;
+            padding-left: 15px;
+            padding-top: 180px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: $black;
+        }
+
+    }
+    .block3-2{
+        cursor: pointer;
+        position: relative;
+        grid-area: blockPeople;
+        .blur{
+            background-image: url(../images/image.png);
+            background-size: cover;
+        }
+        .block3-2__heading{
+            margin: 0;
+            padding-left: 15px;
+            padding-top: 200px;
+            padding-bottom: 15px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: $white;
+        }
+        .block3-2__span{
+            display: none;
+            position: absolute;
+            top: 36%;
+            right: 38%;
+        }
+
+    }
+    .block3-2:hover .blur{
+        filter: blur(5px)
+    }
+    .block3-2:hover .block3-2__span{
+        display: block;
+        filter: none;
+    }
+    .block3-3{
+        grid-area: blockInfo;
+        background-color: $green;
+        .block3-3__description{
+            margin-top: 15px;
+            margin-left: 15px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-family: 'Noto Sans';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            color: $black;
+            .text1 {
+                margin-right: 10px;
+                width: 64px;
+                height: 20px;
+            }
+            .line1 {
+                margin-right: 10px;
+                padding-top: 27px;
+                height: 3px;
+                width: 329px;
+                border-bottom: 1px dashed $black;
+            }
+            .text2 {
+                width: 48px;
+                height: 20px;
+            }
+            .text3 {
+                padding-top: 20px;
+                margin-right: 5px;
+                width: 107px;
+                height: 20px;
+            }
+            .line2 {
+                padding-top: 45px;
+                height: 3px;
+                width: 220px;
+                border-bottom: 1px dashed $black;
+            }
+            .text4 {
+                text-align:right;
+                width: 131px;
+                height: 39px;
+            }
+            .text5 {
+                width: 220px;
+                height: 39px;
+            }
+            .line3 {
+                margin-right: 10px;
+                padding-top: 45px;
+                height: 3px;
+                width: 170px;
+                border-bottom: 1px dashed $black;
+            }
+            .text6 {
+                padding-top: 20px;
+                width: 62px;
+                height: 20px;
+            }
+            .text7 {
+                margin-right: 10px;
+                width: 105px;
+                height: 20px;
+            }
+            .line4 {
+                margin-right: 10px;
+                padding-top: 25px;
+                height: 3px;
+                width: 264px;
+                border-bottom: 1px dashed $black;
+            }
+            .text8 {
+                width: 70px;
+                height: 20px;
+            }
+            .text9 {
+                margin-right: 10px;
+                width: 59px;
+                height: 20px;
+            }
+            .line5 {
+                margin-right: 10px;
+                padding-top: 25px;
+                height: 3px;
+                width: 289px;
+                border-bottom: 1px dashed $black;
+            }
+            .text10 {
+                width: 93px;
+                height: 20px;
+            }
+
+        }
+    }
+}
